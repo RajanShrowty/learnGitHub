@@ -13,3 +13,4 @@ None of this seems useful....
 https://www.youtube.com/watch?v=uOirtQzxtG4
 1. after a windows update, delete everything at C:\Windows\SoftwareDistribution
 2. run --> cleanmgr - 
+This is most effective
