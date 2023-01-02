@@ -1,0 +1,15 @@
+1. regedit - run as administrator --> search for 'enableulps' --> change setting to 0
+2. go to taskmanager - startup tab --> check the programs/processes having a high startup impact --> Disable the ones that are not important
+3. power & sleep settings --> Advanced Power Settings --> choose what the power buttons do --> change the settings that are currently unavailable --> de-select the checkbox for 'Turn on fast startup'
+
+https://www.youtube.com/watch?v=K_Acj4sISzo&t=6s
+1. power & sleep settings --> Advanced Power Settings --> choose what the power buttons do --> change the settings that are currently unavailable --> de-select the checkbox for 'Turn on fast startup'
+2. go to taskmanager - startup tab --> check the programs/processes having a high startup impact --> Disable the ones that are not important
+3. performance options - advanced tab - virtual memory section - change button - deselect 'Automatically manage paging file size for all drives' - Custom size: set initial size = a few GBs less than the recommended (as specified in the 'Total paging size for all drives' section) and set maximum size = recommended
+4. update graphics card drivers using device manager
+5. turn windows features on or off --> turn off the windows susbsystem for linux
+None of this seems useful....
+
+https://www.youtube.com/watch?v=uOirtQzxtG4
+1. after a windows update, delete everything at C:\Windows\SoftwareDistribution
+2. run --> cleanmgr - 
